@@ -1,7 +1,10 @@
 const PlayerCard = () => {
   return (
     <div className="border rounded-xl p-6 space-y-3 shadow-md">
-      <img className="w-full h-[270px]" src="/player-img.svg" alt="Player" />
+      <div className="h-[270px]">
+        <img className="w-full h-full" src="/player-img.svg" alt="Player" />
+      </div>
+
       <div className="flex items-center justify-start gap-x-2">
         <img className="" src="/user.svg" alt="User" />
         <h6 className="font-bold text-xl">Virat Kholi</h6>
