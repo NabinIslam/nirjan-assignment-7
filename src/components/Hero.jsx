@@ -1,4 +1,6 @@
-const Hero = () => {
+import { toast } from "react-toastify";
+
+const Hero = ({ balance, setBalance }) => {
   return (
     <section>
       <div className="container">
@@ -13,7 +15,13 @@ const Hero = () => {
             Beyond Boundaries Beyond Limits
           </h6>
 
-          <button className="bg-[#E7FE29] font-medium px-4 py-3 rounded-xl">
+          <button
+            className="bg-[#E7FE29] font-medium px-4 py-3 rounded-xl"
+            onClick={() => {
+              setBalance(balance + 15000000);
+              toast(`credit added to the balance`);
+            }}
+          >
             Claim Free Credit
           </button>
         </div>

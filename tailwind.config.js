@@ -1,12 +1,7 @@
-import daisyui from "daisyui";
-
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    colors: {
-      primary: "#E7FE29",
-    },
     container: {
       center: true,
       padding: "2rem",
@@ -14,8 +9,9 @@ export default {
     extend: {
       backgroundImage: {
         "hero-bg": "url('/hero-bg.jpg')",
+        "newsletter-bg": "url('/newsletter-bg.jpeg')",
       },
     },
   },
-  plugins: [daisyui],
+  plugins: [],
 };

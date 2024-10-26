@@ -1,8 +1,15 @@
-# React + Vite
+# Dream 11
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is about bidding on players. claim credits and choose players and bid.
 
-Currently, two official plugins are available:
+## Technology Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Frontend - React.js
+- Styling - Tailwind CSS
+- Toast message - React Toastify
+
+## Features
+
+- User can add credit by clicking claim free credit button.
+- User can select player form the available players tab with the credit balance and see all the selected player in the seleted tab.
+- User can remove selected players
